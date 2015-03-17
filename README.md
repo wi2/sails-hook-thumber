@@ -33,3 +33,16 @@ sails.hooks.thumber.process thumbConf, () ->
 
 ```
 
+Ex: In your Controller
+```
+req.file('file').upload (err, files) ->
+	for file in files
+		thumbConf =
+			fd: file.fd
+			filename: 'test.jpg'
+			size: file.size
+		sails.hooks.thumber.process thumbConf, () ->
+			console.log "success start"
+
+```
+
