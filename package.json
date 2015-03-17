@@ -1,0 +1,26 @@
+{
+  "name": "sails-hook-thumber",
+  "version": "0.11.0",
+  "description": "Sails JS hook to make thumber fast and store it on locale disk or in Amazon S3.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/wi2/sails-hook-thumber.git"
+  },
+  "author": "Mike WI2",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wi2/sails-hook-thumber/issues"
+  },
+  "homepage": "https://github.com/wi2/sails-hook-thumber",
+  "sails": {
+    "isHook": true
+  },
+  "dependencies": {
+    "lodash": "^3.5.0",
+    "native-thumber": "0.0.1"
+  }
+}
