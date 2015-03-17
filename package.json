@@ -22,5 +22,14 @@
   "dependencies": {
     "lodash": "^3.5.0",
     "native-thumber": "0.0.1"
-  }
+  },
+  "devDependencies": {},
+  "keywords": [
+    "sails",
+    "thumb",
+    "fast",
+    "amazon",
+    "S3",
+    "disk"
+  ]
 }
